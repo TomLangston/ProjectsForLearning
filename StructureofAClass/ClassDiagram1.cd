@@ -1,36 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="StructureofAClass.Today.Program">
-    <Position X="3.25" Y="0.75" Width="1.5" />
+  <Class Name="StructureofAClass.Today.Program" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
-    <NestedTypes>
-      <Class Name="StructureofAClass.Today.Program.Stadium">
-        <Compartments>
-          <Compartment Name="Nested Types" Collapsed="false" />
-        </Compartments>
-        <NestedTypes>
-          <Class Name="StructureofAClass.Today.Program.Stadium.Team">
-            <TypeIdentifier>
-              <NewMemberFileName>Program.cs</NewMemberFileName>
-            </TypeIdentifier>
-          </Class>
-        </NestedTypes>
-        <TypeIdentifier>
-          <NewMemberFileName>Program.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="StructureofAClass.Today.Player" Collapsed="true">
-    <Position X="5.5" Y="1.75" Width="1.5" />
+  <Class Name="StructureofAClass.Today.Player">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Skills" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StructureofAClass.Today.Skills" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructureofAClass.Today.DefencePlayer" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructureofAClass.Today.OffensePlayer" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructureofAClass.Today.MidfieldPlayer" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructureofAClass.Today.GoalkeeperPlayer">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
