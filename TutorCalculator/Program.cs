@@ -46,57 +46,46 @@ namespace TutorCalculator
 
     public class Student
     {
+        private string NameValue;
+        private string EmailValue;
+        private string LocationValue;
         public List<Session> SessionsList { get; set; }
         public string Name
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+            get { return NameValue; }
 
-            set
-            {
-            }
+            set { NameValue = value; }
         }
 
         public string Email
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+            get { return EmailValue; }
 
-            set
-            {
-            }
+            set { EmailValue = value; }
         }
 
         public string Location
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+            get { return LocationValue; }
 
-            set
-            {
-            }
+            set { LocationValue = value; }
         }
     }
 
     public class Teacher
     {
+        private string NameValue;
+        private string SkillsValue;
+        private string QualificationsValue;
         public List<Student> StudentList
         { get; set; }
         public string Name
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+            get { return NameValue; }
 
             set
             {
+                NameValue = value;
             }
         }
 
@@ -104,11 +93,12 @@ namespace TutorCalculator
         {
             get
             {
-                throw new System.NotImplementedException();
+                return SkillsValue;
             }
 
             set
             {
+                SkillsValue = value;
             }
         }
 
@@ -116,12 +106,18 @@ namespace TutorCalculator
         {
             get
             {
-                throw new System.NotImplementedException();
+                return QualificationsValue;
             }
 
             set
             {
+                QualificationsValue = value;
             }
+        }
+
+        public int CalculateTotalFee()
+        {
+            return 200;
         }
     }
 

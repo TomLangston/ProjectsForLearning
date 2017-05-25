@@ -58,6 +58,10 @@
       <Project>{7bfbb58f-a41c-4df6-a5fe-dc2fe2341222}</Project>
       <Name>DefiningClasses</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TutorCalculator\TutorCalculator.csproj">
+      <Project>{d593dd87-f228-442b-8863-0fe53108d67a}</Project>
+      <Name>TutorCalculator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
