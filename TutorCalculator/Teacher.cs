@@ -45,9 +45,18 @@ namespace TutorCalculator
             }
         }
 
-        public int CalculateTotalFee()
+        public int CalculateTotalPrice()
         {
-            return 200;
+            var result = 0;
+            foreach (var myStudent in StudentList)
+            {
+                foreach (var mySessions in myStudent.SessionsList)
+                {
+                    result += mySessions.Price*mySessions.Length;
+                }
+            }
+            return result;
+
         }
     }
 }

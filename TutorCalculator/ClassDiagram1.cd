@@ -1,28 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="TutorCalculator.Program">
-    <Position X="1.25" Y="1.75" Width="1.5" />
+    <Position X="1.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TutorCalculator.Student">
-    <Position X="3.5" Y="1" Width="1.5" />
+    <Position X="6" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIAAAIAAACAAAAAAAAIAAAQAAAAEAAAAAAAAAAgAAAA=</HashCode>
+      <HashCode>AIAAAIAAACAAAAAAAAIAAAQAQAAEAAAAAAAAAAgAAAA=</HashCode>
       <FileName>Student.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="SessionsList" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TutorCalculator.Teacher">
-    <Position X="5.75" Y="1" Width="1.5" />
+    <Position X="3.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAIACAAAAAAAgAAAAAgAAAwAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <HashCode>EIIACAAAAAAAgAAAAAgAAAQAAAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>Teacher.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="StudentList" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TutorCalculator.Session">
-    <Position X="8" Y="1" Width="1.5" />
+    <Position X="8.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAIAAAABAQAAAgAABAEAAAAAAAAA=</HashCode>
       <FileName>Session.cs</FileName>

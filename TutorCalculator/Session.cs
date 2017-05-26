@@ -35,5 +35,11 @@ namespace TutorCalculator
 
             set { _priceValue = value; }
         }
+
+        public int TotalPrice()
+        {
+            var result = Price*Length;
+            return result;
+        }
     }
 }

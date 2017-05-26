@@ -28,5 +28,15 @@ namespace TutorCalculator
 
             set { _locationValue = value; }
         }
+
+        public int TotalSessionCount()
+        {
+            var result = 0;
+            foreach (var mySession in SessionsList)
+            {
+                result += 1;
+            }
+            return result;
+        }
     }
 }
